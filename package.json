@@ -25,7 +25,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
+  "author": "YuliyaIv <ranokgps@gmail.com>",
   "license": "MIT",
   "jest": {
     "setupFiles": [
@@ -166,5 +166,6 @@
       "pre-commit": "cross-env npm run lint && npm test",
       "pre-push": "cross-env npm run lint && npm test"
     }
-  }
+  },
+  "repository": "git@github.com:YuliyaIv/week-2-react-routes.git"
 }
